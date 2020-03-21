@@ -623,6 +623,7 @@ class Main(QtWidgets.QMainWindow):
         self.initFormatbar()
         self.initMenubar()
         self.statusbar = self.statusBar()
+        self.statusbar.showMessage("The Best Python Open Source Text Editor")
         
         self.setGeometry(100,100,1030,800)
         self.setWindowTitle("Редактор")
